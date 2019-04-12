@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/HttpUrlConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpUrlConnection"
+        android:padding="20dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/retrofit_okhttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrofit_okhttp"
+        android:padding="20dp"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HttpUrlConnection"/>
+
+</android.support.constraint.ConstraintLayout>
